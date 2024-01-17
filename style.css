@@ -21,11 +21,15 @@ h2 {
 	font-weight: bold;
 }
 
-h3, h4, h5, h6 {
+h3,
+h4,
+h5,
+h6 {
 	font-weight: 400;
 }
 
-p, hr {
+p,
+hr {
 	color: lightgray;
 }
 
@@ -61,6 +65,7 @@ a {
 #navbar .logo {
 	width: 1.5em;
 	height: 1.5em;
+	padding-left: 1em;
 }
 
 #navbar nav {
@@ -161,9 +166,7 @@ a {
 	margin-inline: 2vw;
 }
 
-#intro nav {
-
-}
+#intro nav {}
 
 #intro nav a {
 	padding-inline: 1vw;
